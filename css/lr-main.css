@@ -1,0 +1,78 @@
+/*
+LEFT/RIGHT MUSIC STYLE GUIDELINES
+|- NAVIGATION/HEADINGS
+|-- font-family: 'Montserrat', sans-serif;
+|
+|- TEXT
+|-- font-family: 'Roboto', sans-serif;
+*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+/*    background: transparent; */
+    background-image: url(http://leftrightmusic.com/img/lr-coin.svg), url(http://omarmustafa.net/download/random/lr-bg.jpg);
+    background-size: 150px, cover;
+    background-blend-mode: lighten, normal;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 50%, center;
+    background-attachment: fixed, fixed;
+}
+.lr-content {
+    flex: 1;
+    padding: 20px;
+    background-color: transparent;
+}
+#lr-sec-1 {
+  height: 1000px;
+}
+#lr-sec-2 {
+  height: 1200px;
+}
+.footer {
+  padding: 30px 0 20px 0;
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.navbar-inverse {
+    padding: 20px;
+    background-color: transparent;
+    font-size: 35px;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.navbar-nav > li > a {
+  padding: 10px;
+}
+.lr-txt a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: #CACACA !important;
+  text-decoration: none;
+}
+li.nav-item a {
+  font-size: 20px;
+}
+li.nav-item a:hover { /* red line when hover over nav */
+  border-left: 0.15px solid #E73333;
+}
+footer .lr-txt a:hover {
+    color: #E73333 !important;
+}
+
+/*
+ * parallax.js custom css
+ */
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
